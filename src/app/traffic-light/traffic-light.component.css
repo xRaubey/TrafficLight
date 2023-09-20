@@ -1,0 +1,47 @@
+#trafficLightContainer {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  background-color: black;
+  border-radius: 15%;
+  box-sizing: content-box;
+}
+
+#red{
+  display: block;
+  height: 50px;
+  width: 50px;
+  border: black 1px solid;
+  border-radius: 50%;
+
+}
+
+#yellow{
+  display: block;
+  height: 50px;
+  width: 50px;
+  border: black 1px solid;
+  border-radius: 50%;
+}
+
+#green{
+  display: block;
+  height: 50px;
+  width: 50px;
+  border: black 1px solid;
+  border-radius: 50%;
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
+}

@@ -1,0 +1,7 @@
+<div id="trafficLightContainer">
+  <div id="red" [ngClass]="{'red': c == 'red'}"></div>
+  <div id="yellow" [ngClass]="{'yellow': c == 'yellow'}"></div>
+  <div id="green" [ngClass]="{'green': c == 'green'}"></div>
+</div>
+
+<button type="button" (click)="stopLights()">Stop</button>
